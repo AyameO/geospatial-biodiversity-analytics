@@ -220,3 +220,4 @@ __marimo__/
 # Project data
 .DS_Store
 data/raw/
+.env
