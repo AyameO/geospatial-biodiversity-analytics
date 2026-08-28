@@ -67,9 +67,10 @@ Goal: Create a validated spatial dataset in GeoPackage format for subsequent ana
 Goal: Quantify progress toward the 30 by 30 target.
 
 ## Day 7: Visualization & Portfolio
-- Create global protected area maps
+- Create an interactive global protected area map
 - Visualize country-level coverage
 - Create charts for 30 by 30 progress
 - Add OpenStreetMap as a background map
+- Deploy the interactive map online
 - Update README and development notes
 Goal: Visualize and communicate the analysis results.

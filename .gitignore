@@ -217,9 +217,17 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Project data
-.DS_Store
+# Environment
+.venv/
 .env
-# Raw and processed data
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Data
 data/raw/
-data/*.gpkg
+data/processed/
