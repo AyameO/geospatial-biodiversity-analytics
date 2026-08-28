@@ -9,7 +9,8 @@
 - Select Protected Planet as the primary data source for PAs and OECMs
 - Decide to use the Protected Planet API and submit an API access request
 - Select Natural Earth as the source for country boundary data
-- Select the 1:10m Admin 0 – Countries dataset
+- Select the 1:10m Admin 0 – Countries dataset  
+
 **Goal: Set up the development environment and define the research scope and data sources.**
 
 ## Day 2: Data Preparation
@@ -18,7 +19,8 @@
 - Confirm 258 countries/territories and CRS (EPSG:4326)
 - Visualize global country boundaries using GeoPandas and Matplotlib]
 - Configure `.gitignore` for raw data, `.venv`, and system-generated files
-- Commit and push the changes to GitHub
+- Commit and push the changes to GitHub  
+
 **Goal: Load and visualize the first geospatial dataset using Python and GeoPandas.**
 
 ## Day 3: Protected Planet API Integration
@@ -26,7 +28,8 @@
 - Review API documentation and required fields
 - Implement API authentication and pagination
 - Test data retrieval and GeoDataFrame conversion
-- Confirm batch retrieval strategy (50 records/page)
+- Confirm batch retrieval strategy (50 records/page)  
+
 **Goal: Establish a reliable API workflow for Protected Planet data.**
 
 ## Day 4: Large-scale Data Retrieval
@@ -36,6 +39,7 @@
 - Store intermediate data as JSON files
 - Clear memory after each batch
 - Complete full data retrieval
+
 **Goal: Retrieve the full Protected Planet dataset efficiently while minimizing memory usage.**
 
 ## Day 5: Data Validation and GeoPackage Integration
@@ -45,7 +49,8 @@
 - Implement batch-based JSON to GeoPackage conversion
 - Flatten nested API attributes for analysis
 - Test GeoPackage creation with 10,000 records
-- Successfully integrate all 33 batches into one GeoPackage
+- Successfully integrate all 33 batches into one GeoPackage  
+
 **Goal: Create a validated spatial dataset in GeoPackage format for subsequent analysis.**
 
 ## Day 6: 30 by 30 Spatial Analysis
@@ -53,7 +58,8 @@
 - Calculate global protected area coverage
 - Calculate terrestrial and marine coverage
 - Calculate country-level coverage
-- Compare coverage with the 30 by 30 target
+- Compare coverage with the 30 by 30 target  
+
 **Goal: Quantify progress toward the 30 by 30 target.**
 
 ## Day 7: Visualization & Portfolio
@@ -62,5 +68,6 @@
 - Create charts for 30 by 30 progress
 - Add OpenStreetMap as a background map
 - Deploy the interactive map online
-- Update README and development notes
+- Update README and development notes  
+
 **Goal: Visualize and communicate the analysis results.**
