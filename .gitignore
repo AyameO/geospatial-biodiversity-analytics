@@ -219,5 +219,7 @@ __marimo__/
 
 # Project data
 .DS_Store
-data/raw/
 .env
+# Raw and processed data
+data/raw/
+data/*.gpkg
