@@ -6,7 +6,7 @@ import re
 import geopandas as gpd
 
 # ============================================================
-# Find the latest batch files (Input files)
+# Load the latest json files (Input files)
 # ============================================================
 
 all_files = glob.glob("data/raw/protected_planet_batches/protected_planet_*.json")

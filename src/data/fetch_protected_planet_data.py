@@ -5,6 +5,10 @@ import requests
 from dotenv import load_dotenv
 from datetime import datetime
 
+# ============================================================
+# Variable Initialization
+# ============================================================
+
 load_dotenv()
 
 api_key = os.getenv("PROTECTED_PLANET_API_TOKEN")
@@ -27,6 +31,10 @@ date_str = datetime.now().strftime("%Y%m%d")
 # Temporary stoarge for one batch
 batch_protected_areas = []
 
+
+# ============================================================
+# Data Retrieval Process
+# ============================================================
 
 while True:
     params = {
