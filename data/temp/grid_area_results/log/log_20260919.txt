@@ -1,0 +1,156 @@
+Loading WDPCA...
+WDPCA records: 299,398
+
+Loading Target 3 eligible mask...
+Mask records: 1
+
+Reprojecting data to EPSG:6933...
+Validating Target 3 mask...
+Validating WDPCA geometries (fixing invalid polygons)...
+Creating spatial index for Target 3 mask...
+
+Creating global grid system...
+Total processing grids created: 402
+
+
+############################################################
+# RUNNING CATEGORY: pa_oecm
+############################################################
+Terrestrial records: 283,054
+Marine records: 16,344
+
+============================================================
+Processing: pa_oecm / terrestrial
+============================================================
+Total Grids to analyze: 402
+Building spatial index for geometries...
+  [Reset] Removing old cache file for a fresh run: pa_oecm_terrestrial_progress.csv
+Progress: Grid 1 / 402 | Running Total: 0.00 km²
+Progress: Grid 51 / 402 | Running Total: 728,834.91 km²
+  [Filter Status] Skipped 7 non-polygon geometries in this batch.
+Progress: Grid 101 / 402 | Running Total: 3,823,059.93 km²
+  [Filter Status] Skipped 5 non-polygon geometries in this batch.
+Progress: Grid 151 / 402 | Running Total: 7,791,540.81 km²
+Progress: Grid 201 / 402 | Running Total: 11,964,589.50 km²
+Progress: Grid 251 / 402 | Running Total: 16,192,016.55 km²
+Progress: Grid 301 / 402 | Running Total: 17,775,673.05 km²
+Progress: Grid 351 / 402 | Running Total: 21,027,720.22 km²
+  [Filter Status] Skipped 3 non-polygon geometries in this batch.
+Progress: Grid 401 / 402 | Running Total: 21,719,423.55 km²
+Progress: Grid 402 / 402 | Running Total: 21,721,261.47 km²
+→ [Filter Summary] Total non-polygon geometries filtered out for pa_oecm/terrestrial: 797
+[COMPLETED] TOTAL AREA FOR pa_oecm / terrestrial: 21,728,265.59 km²
+
+============================================================
+Processing: pa_oecm / marine
+============================================================
+Total Grids to analyze: 402
+Building spatial index for geometries...
+  [Reset] Removing old cache file for a fresh run: pa_oecm_marine_progress.csv
+Progress: Grid 1 / 402 | Running Total: 0.00 km²
+Progress: Grid 51 / 402 | Running Total: 11,200,113.69 km²
+Progress: Grid 101 / 402 | Running Total: 14,885,113.69 km²
+Progress: Grid 151 / 402 | Running Total: 17,898,913.53 km²
+Progress: Grid 201 / 402 | Running Total: 20,840,198.01 km²
+Progress: Grid 251 / 402 | Running Total: 22,738,398.07 km²
+Progress: Grid 301 / 402 | Running Total: 24,588,415.00 km²
+Progress: Grid 351 / 402 | Running Total: 26,187,588.22 km²
+Progress: Grid 401 / 402 | Running Total: 29,982,798.53 km²
+Progress: Grid 402 / 402 | Running Total: 29,985,900.11 km²
+→ [Filter Summary] Total non-polygon geometries filtered out for pa_oecm/marine: 88
+[COMPLETED] TOTAL AREA FOR pa_oecm / marine: 29,992,789.17 km²
+
+
+############################################################
+# RUNNING CATEGORY: pa_only
+############################################################
+Terrestrial records: 275,795
+Marine records: 16,221
+
+============================================================
+Processing: pa_only / terrestrial
+============================================================
+Total Grids to analyze: 402
+Building spatial index for geometries...
+Progress: Grid 1 / 402 | Running Total: 0.00 km²
+Progress: Grid 51 / 402 | Running Total: 720,248.10 km²
+  [Filter Status] Skipped 5 non-polygon geometries in this batch.
+Progress: Grid 101 / 402 | Running Total: 3,741,330.20 km²
+  [Filter Status] Skipped 2 non-polygon geometries in this batch.
+Progress: Grid 151 / 402 | Running Total: 7,648,360.35 km²
+Progress: Grid 201 / 402 | Running Total: 10,609,171.68 km²
+Progress: Grid 251 / 402 | Running Total: 14,836,013.26 km²
+Progress: Grid 301 / 402 | Running Total: 16,419,347.97 km²
+Progress: Grid 351 / 402 | Running Total: 19,667,630.66 km²
+  [Filter Status] Skipped 3 non-polygon geometries in this batch.
+Progress: Grid 401 / 402 | Running Total: 20,359,030.15 km²
+Progress: Grid 402 / 402 | Running Total: 20,360,868.07 km²
+→ [Filter Summary] Total non-polygon geometries filtered out for pa_only/terrestrial: 776
+[COMPLETED] TOTAL AREA FOR pa_only / terrestrial: 20,367,872.19 km²
+
+============================================================
+Processing: pa_only / marine
+============================================================
+Total Grids to analyze: 402
+Building spatial index for geometries...
+Progress: Grid 1 / 402 | Running Total: 0.00 km²
+Progress: Grid 51 / 402 | Running Total: 11,200,113.69 km²
+Progress: Grid 101 / 402 | Running Total: 14,841,808.15 km²
+Progress: Grid 151 / 402 | Running Total: 17,616,415.83 km²
+Progress: Grid 201 / 402 | Running Total: 20,557,391.86 km²
+Progress: Grid 251 / 402 | Running Total: 22,455,435.20 km²
+Progress: Grid 301 / 402 | Running Total: 24,305,434.94 km²
+Progress: Grid 351 / 402 | Running Total: 25,870,010.32 km²
+Progress: Grid 401 / 402 | Running Total: 29,665,220.68 km²
+Progress: Grid 402 / 402 | Running Total: 29,668,322.27 km²
+→ [Filter Summary] Total non-polygon geometries filtered out for pa_only/marine: 88
+[COMPLETED] TOTAL AREA FOR pa_only / marine: 29,675,211.33 km²
+
+
+############################################################
+# RUNNING CATEGORY: oecm_only
+############################################################
+Terrestrial records: 7,259
+Marine records: 123
+
+============================================================
+Processing: oecm_only / terrestrial
+============================================================
+Total Grids to analyze: 402
+Building spatial index for geometries...
+Progress: Grid 1 / 402 | Running Total: 0.00 km²
+Progress: Grid 51 / 402 | Running Total: 8,587.69 km²
+  [Filter Status] Skipped 2 non-polygon geometries in this batch.
+Progress: Grid 101 / 402 | Running Total: 83,607.59 km²
+  [Filter Status] Skipped 3 non-polygon geometries in this batch.
+Progress: Grid 151 / 402 | Running Total: 145,220.93 km²
+Progress: Grid 201 / 402 | Running Total: 1,512,543.22 km²
+Progress: Grid 251 / 402 | Running Total: 1,513,204.77 km²
+Progress: Grid 301 / 402 | Running Total: 1,513,526.56 km²
+Progress: Grid 351 / 402 | Running Total: 1,517,502.50 km²
+Progress: Grid 401 / 402 | Running Total: 1,517,809.05 km²
+Progress: Grid 402 / 402 | Running Total: 1,517,809.05 km²
+→ [Filter Summary] Total non-polygon geometries filtered out for oecm_only/terrestrial: 21
+[COMPLETED] TOTAL AREA FOR oecm_only / terrestrial: 1,517,809.05 km²
+
+============================================================
+Processing: oecm_only / marine
+============================================================
+Total Grids to analyze: 402
+Building spatial index for geometries...
+Progress: Grid 1 / 402 | Running Total: 0.00 km²
+Progress: Grid 51 / 402 | Running Total: 0.00 km²
+Progress: Grid 101 / 402 | Running Total: 43,308.27 km²
+Progress: Grid 151 / 402 | Running Total: 290,717.02 km²
+Progress: Grid 201 / 402 | Running Total: 291,193.78 km²
+Progress: Grid 251 / 402 | Running Total: 291,350.50 km²
+Progress: Grid 301 / 402 | Running Total: 291,367.69 km²
+Progress: Grid 351 / 402 | Running Total: 325,976.65 km²
+Progress: Grid 401 / 402 | Running Total: 325,976.65 km²
+Progress: Grid 402 / 402 | Running Total: 325,976.65 km²
+→ [Filter Summary] Total non-polygon geometries filtered out for oecm_only/marine: 0
+[COMPLETED] TOTAL AREA FOR oecm_only / marine: 325,976.65 km²
+
+============================================================
+All analysis successfully completed! Output saved to: data/processed/gis_area_results.csv
+============================================================

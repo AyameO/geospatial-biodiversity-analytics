@@ -80,14 +80,20 @@
 
 
 ## Day 8: Protected Area Analysis
+- Calculate global protected and conserved area coverage for terrestrial and marine & coastal areas
+- Combined Protected Areas (PA) and OECMs
+- Separate PA-only and OECM-only analysis
+- Remove spatial overlaps and calculate unique area using EPSG:6933 equal-area projection
+- Exclude Antarctica from terrestrial calculations
+- Exclude ABNJ (Areas Beyond National Jurisdiction) from marine & coastal calculations using an EEZ-based eligibility mask
+- Exclude non-polygon geometries from area calculations and record the number of excluded geometries
+- Compare GIS-derived coverage with the 30 by 30 target using official Protected Planet Report 2024 denominators
+- Terrestrial & inland waters: 134.53 million km²
+- Marine & coastal: 363.0 million km²
+- Prepare analysis-ready global datasets for visualization
+- Save final GIS-derived area results to gis_area_results.csv
 
-- Calculate protected area coverage for terrestrial and marine areas
-- Compare protected area coverage with the 30 by 30 target
-- Aggregate protected areas by country using parent_iso3
-- Analyze differences in protected area coverage across countries and regions
-- Prepare analysis-ready datasets for visualization
-
-**Goal: Quantify global and country-level progress toward the 30 by 30 target.**
+**Goal: Quantify global progress toward the 30 by 30 target using spatially deduplicated protected and conserved area data.
 
 
 ## Day 9: Data Visualization
