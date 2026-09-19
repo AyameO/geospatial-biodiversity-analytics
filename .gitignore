@@ -229,4 +229,6 @@ __pycache__/
 .DS_Store
 
 # Data
-data/
+data/processed
+data/raw
+data/temp

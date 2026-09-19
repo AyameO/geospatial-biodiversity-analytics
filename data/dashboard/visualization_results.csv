@@ -1,0 +1,7 @@
+category,realm,gis_area_km2,denominator_km2,coverage_pct,target_pct,skipped_non_polygon_count
+pa_oecm,terrestrial,21728265.59,134530000,16.15,30.0,797
+pa_oecm,marine,29992789.17,363000000,8.26,30.0,88
+pa_only,terrestrial,20367872.19,134530000,15.14,30.0,776
+pa_only,marine,29675211.33,363000000,8.17,30.0,88
+oecm_only,terrestrial,1517809.05,134530000,1.13,30.0,21
+oecm_only,marine,325976.65,363000000,0.09,30.0,0
