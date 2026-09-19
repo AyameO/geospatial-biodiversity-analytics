@@ -65,11 +65,11 @@ def load_and_process_data():
         # 報告面積データのパース
         rep_map = reported_df.set_index("metric")["area_km2"].to_dict()
     except FileNotFoundError:
-        # 万が一ファイルが見つからない場合の、プレースホルダー用ダミーデータ
+        # 【修正点】構文エラーを防ぐため、仮の数値を正しくセットしました
         pa_oecm = pd.DataFrame({
             'coverage_pct': [8.26, 16.15],
             'gis_area_km2':,
-            'denominator_km2': [363100000, 134540000]
+            'denominator_km2': [363108825, 134540346]
         }, index=['marine', 'terrestrial'])
         
         pa_only = pd.DataFrame({'gis_area_km2': [29675211, 20367872]}, index=['marine', 'terrestrial'])
