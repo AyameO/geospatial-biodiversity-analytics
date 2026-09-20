@@ -110,7 +110,7 @@ The project uses these official denominators rather than independently deriving 
 
 ## Data Processing Workflow
 
-![photo_workflow](./images/data_processing_workflow.png)
+![photo_workflow](./images/data_processing_workflow.jpg)
 
 ---
 
