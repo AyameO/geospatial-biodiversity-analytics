@@ -96,12 +96,14 @@
 **Goal: Quantify global progress toward the 30 by 30 target using spatially deduplicated protected and conserved area data.
 
 
-## Day 9: Data Visualization
+## Day 9: Data Visualization & Documentation
 
-- Create a global protected area map using OpenStreetMap as the basemap
-- Visualize terrestrial and marine protected areas separately
-- Create country-level visualizations of protected area coverage
-- Visualize progress toward the 30 by 30 target
-- Prepare figures and maps for the portfolio
+- Prepare visualization-ready results from the GIS analysis
+- Build an interactive Streamlit dashboard for global 30 by 30 progress
+- Visualize terrestrial and marine coverage against the 30% target
+- Compare GIS-calculated area with raw WDPCA reported area
+- Visualize PA and OECM areas by realm
+- Document the methodology, data sources, limitations, and results in `README.md`
+- Prepare the project for final GitHub presentation
 
-**Goal: Turn the analysis results into clear and compelling visualizations for the portfolio.**
+**Goal: Turn the global GIS analysis into a clear, reproducible, and portfolio-ready data visualization.**

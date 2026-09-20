@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
-from pathlib import Path
-from datetime import datetime
-import re
+import json
 
 # ------------------------------------------------------------
 # 1. Page configuration and dark theme
@@ -59,29 +57,38 @@ st.markdown("""
 # ------------------------------------------------------------
 gis_path = "data/dashboard/visualization_results.csv"
 reported_path = "data/dashboard/reported_area_results.csv"
-wdpca_batch_dir = Path("data/raw/protected_planet_batches")
+metadata_path = "data/dashboard/metadata.json"
 
 
 def get_wdpca_retrieval_date():
-    """Extract the latest YYYYMMDD date from WDPCA batch filenames."""
-    pattern = re.compile(r"protected_planet_(\d{8})_batch_\d+\.json$")
-    dates = []
+    """Load the WDPCA retrieval date from metadata.json."""
 
-    if wdpca_batch_dir.exists():
-        for path in wdpca_batch_dir.glob("protected_planet_*_batch_*.json"):
-            match = pattern.match(path.name)
-            if match:
-                try:
-                    dates.append(
-                        datetime.strptime(match.group(1), "%Y%m%d")
-                    )
-                except ValueError:
-                    pass
+    try:
+        with open(
+            metadata_path,
+            "r",
+            encoding="utf-8"
+        ) as f:
+            metadata = json.load(f)
 
-    if not dates:
+        retrieval_date = metadata.get(
+            "wdpca_retrieval_date"
+        )
+
+        if not retrieval_date:
+            return None
+
+        return pd.to_datetime(
+            retrieval_date
+        ).to_pydatetime()
+
+    except (
+        FileNotFoundError,
+        json.JSONDecodeError,
+        ValueError,
+        TypeError
+    ):
         return None
-
-    return max(dates)
 
 
 wdpca_retrieval_date = get_wdpca_retrieval_date()
