@@ -106,6 +106,7 @@ The coverage estimates use the official denominators from the **Protected Planet
 | Marine & coastal | **363.0 million km²** |
 
 The project uses these official denominators rather than independently deriving them from GIS.
+
 ---
 
 ## Data Processing Workflow
