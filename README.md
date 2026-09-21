@@ -195,5 +195,5 @@ These extensions could support future research into evidence-based protected-are
 ---
 
 ## Author
-**Ayame Otsuki**
+**Ayame Otsuki**  
 [My Github Account - AyameO](https://github.com/AyameO)
