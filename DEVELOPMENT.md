@@ -93,7 +93,7 @@
 - Prepare analysis-ready global datasets for visualization
 - Save final GIS-derived area results to gis_area_results.csv
 
-**Goal: Quantify global progress toward the 30 by 30 target using spatially deduplicated protected and conserved area data.
+**Goal: Quantify global progress toward the 30 by 30 target using spatially deduplicated protected and conserved area data.**
 
 
 ## Day 9: Data Visualization & Documentation

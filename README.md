@@ -30,7 +30,8 @@ The project is designed as a portfolio demonstrating the use of **Python, GeoPan
 
 ## Key Results
 
-Using the current WDPCA dataset and the official Target 3 denominators from the *Protected Planet Report 2024*:
+Using the current WDPCA dataset and the official Target 3 denominators from the *Protected Planet Report 2024*:  
+WDPCA data retrieved: **August, 2026**.  
 
 | Category | Realm | GIS-calculated coverage |
 |---|---|---:|
@@ -41,7 +42,6 @@ Using the current WDPCA dataset and the official Target 3 denominators from the 
 | OECM only | Terrestrial & inland waters | **1.13%** |
 | OECM only | Marine & coastal | **0.09%** |
 
-WDPCA data retrieved: **August, 2026**.  
 The Target 3 benchmark is **30% for each realm**.
 
 These percentages are **GIS-derived results from the current WDPCA dataset** and should not be interpreted as official Protected Planet Target 3 achievement figures.
@@ -125,22 +125,22 @@ The dashboard will open in a local browser.
 
 ---
 
-### Limitations
+## Limitations
 This project is a portfolio-scale GIS analysis and has several limitations.
 
-### WDPCA data version
+#### WDPCA data version
 The analysis represents the WDPCA dataset available at the time of retrieval.
 Protected and conserved area databases are continuously updated, so results may change as new records or revisions become available.
 
-### Target 3 methodology
+#### Target 3 methodology
 The project uses the official Protected Planet Report 2024 denominators but independently calculates the numerator from the current WDPCA spatial data.
 Therefore, the resulting percentages should not be interpreted as official Protected Planet Target 3 statistics.
 
-### Eligibility mask
+#### Eligibility mask
 The Target 3 eligibility mask uses the Marine Regions 2024 country-boundary and EEZ union dataset as a practical GIS mask.
 It may not reproduce every detail of the official Protected Planet methodology, including differences in shoreline and boundary datasets.
 
-### Spatial resolution and geometry quality
+#### Spatial resolution and geometry quality
 The accuracy of the GIS-derived area depends on the quality and spatial precision of the source geometries.
 
 ---
@@ -158,16 +158,16 @@ The accuracy of the GIS-derived area depends on the quality and spatial precisio
 ---
 
 ## Data Sources
-### Protected Planet
-World Database on Protected and Conserved Areas (WDPCA)
+#### Protected Planet
+World Database on Protected and Conserved Areas (WDPCA).  
 [Protected Planet](https://www.protectedplanet.net/)
 
-### Protected Planet Report 2024
-Used as the source for the official Target 3 denominator methodology.
+#### Protected Planet Report 2024
+Used as the source for the official Target 3 denominator methodology.   
 [Protected Planet Report 2024](https://digitalreport.protectedplanet.net/)
 
-### Marine Regions
-Flanders Marine Institute (2024).
+#### Marine Regions
+Flanders Marine Institute (2024).  
 Marine and land zones: the union of world country boundaries and EEZ's, Version 4.
 
 ---
@@ -195,4 +195,5 @@ These extensions could support future research into evidence-based protected-are
 ---
 
 ## Author
-[Ayame Otsuki](https://github.com/AyameO)
+**Ayame Otsuki**
+[My Github Account - AyameO](https://github.com/AyameO)
