@@ -1,4 +1,4 @@
-# Future Biodiversity & Protected Areas Dashboard
+# Geospatial Analytics for Biodiversity Conservation　
 
 A geospatial data analysis project exploring global progress toward the **30 by 30 target** using protected area and OECM data from the **World Database on Protected and Conserved Areas (WDPCA)**.
 
@@ -41,7 +41,7 @@ Using the current WDPCA dataset and the official Target 3 denominators from the 
 | OECM only | Terrestrial & inland waters | **1.13%** |
 | OECM only | Marine & coastal | **0.09%** |
 
-WDPCA data retrieved: August, 2026
+WDPCA data retrieved: **August, 2026**.  
 The Target 3 benchmark is **30% for each realm**.
 
 These percentages are **GIS-derived results from the current WDPCA dataset** and should not be interpreted as official Protected Planet Target 3 achievement figures.
@@ -51,7 +51,7 @@ These percentages are **GIS-derived results from the current WDPCA dataset** and
 ## Dashboard
 
 The dashboard is available online:
-**[Future Biodiversity & Protected Areas Dashboard](https://geospatial-biodiversity-analytics.streamlit.app/)**
+**[Global 30 by 30 Progress Dashboard](https://geospatial-biodiversity-analytics.streamlit.app/)**
 
 ![photo_dashboard](./images/photo_dashboad_allgraph_01.png)
 
